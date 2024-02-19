@@ -7,6 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+selenium = "^4.17.2"
+pytest = "^8.0.1"
+streamlit = "^1.31.1"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+taskipy = "^1.12.2"
 
 
 [build-system]
