@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
 from time import sleep
 import pytest
 import subprocess
@@ -23,3 +22,4 @@ def driver():
 def test_app_opens(driver):
     # Verificar se a página abre
     driver.get("http://localhost:8501")
+    sleep(5)
