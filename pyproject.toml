@@ -13,7 +13,11 @@ streamlit = "^1.31.1"
 pandas = "^2.2.0"
 numpy = "^1.26.4"
 taskipy = "^1.12.2"
+pydentic = "^0.0.1.dev3"
 
+[tool.taskipy.tasks]
+run = "streamlit run src/app.py"
+test = "pytest tests -v"
 
 [build-system]
 requires = ["poetry-core"]
