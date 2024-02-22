@@ -14,6 +14,8 @@ pandas = "^2.2.0"
 numpy = "^1.26.4"
 taskipy = "^1.12.2"
 pydentic = "^0.0.1.dev3"
+openpyxl = "^3.1.2"
+pydantic = {extras = ["email"], version = "^2.6.1"}
 
 [tool.taskipy.tasks]
 run = "streamlit run src/app.py"
