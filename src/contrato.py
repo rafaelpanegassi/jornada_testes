@@ -26,6 +26,7 @@ class Vendas(BaseModel):
     data: datetime
     valor: PositiveFloat
     quantidade: PositiveInt
+    produto: str
     categoria: CategoriaEnum
 
     @field_validator('categoria')
